@@ -1,0 +1,17 @@
+// many ways to find max and min elements in an array 
+// you can intitializ min and max as greatest maximum value and smallest mininum value respectively
+// then you can traverse throught the loop and check the min and max between the current value and min and max value and then update min and max value
+
+
+class Compute 
+{
+    static pair getMinMax(int a[], int n){
+    int min =Integer.MAX_VALUE;
+    int max= Integer.MIN_VALUE;
+    for(int i=0; i<n;i++){
+    min= Math.min(arr[i],min);
+    max= Math.max(arr[i],max);
+    }
+    }
+    }
+    
