@@ -1,0 +1,17 @@
+// To reverse an array we can take two pointer first and last element swap them and thn increment first element and decrement last element
+class Reverse
+{
+    public static String reverseWord(String str){
+    char[]arr= str.toCharArray();
+    int first =0;
+    int last =arr.length-1;
+    while(first<last){
+    char temp = arr[first];
+    arr[first]= arr[last];
+    arr[last] = temp;
+    first++;
+    last--;
+    }
+    return []arr;
+    }
+    }
